@@ -6,4 +6,4 @@ session = WolframLanguageSession()
 
 
 if __name__ == '__main__':  
-    session.eval(wlexpr('Table[x,{x,5}]'))
+    session.evaluate(wlexpr('Table[x,{x,5}]'))
